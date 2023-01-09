@@ -1,0 +1,69 @@
+*{
+  margin: 0;;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  font-family: 'Nunito',sans-serif;
+}
+a{
+  text-decoration: none;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 180px;
+
+}
+li{
+  list-style: none;
+  padding: 0 20px;
+}
+ul{
+  display: flex;
+}
+
+.searchf{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.searchf{
+  padding: 20px;
+  width: 30%;
+}
+
+.searchf:focus{
+  border: none;
+}
+.container{
+  padding: 0px 200px;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  gap: 5%;
+}
+.contenti{
+  flex-basis: 30%;
+}
+.content{
+  flex-basis: 70%;
+}
+.title{
+  font-size: 60px;
+}
+.stitle{
+  margin: 40px 0 20px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.linec{
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
